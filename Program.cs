@@ -23,9 +23,11 @@ namespace Ejercito
 
             yamaha.agregarAliados();
             mitsubishi.agregarAliados();
-            yamaha.Batalla(mitsubishi);
-            yamaha.aumentarCombustible(yamaha, 15);
+            yamaha.batalla(mitsubishi);
+            yamaha.aumentarCombustible(15);
             yamaha.informacion();
+
+            yamaha.avanzar(3);
         }
     }
 }

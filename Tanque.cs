@@ -7,13 +7,15 @@ using System.Threading.Tasks;
 
 namespace Ejercito
 {
-    class Tanque : VehiculoMilitar
+    class Tanque : VehiculoMilitar, IVehiculoMilitar
     {
+        // Atributos:
         private string capacidadTodoTerreno;
         private bool defensaAntiAerea;
         private string armamentoPrincipal;
         private string armamentoSecundario;
 
+        //Métodos: 
         public Tanque(string patente, string nombre, string pais, int anioFabricacion, int peso, int capacidadTripulacion, int velocidad, double combustible, int blindaje, int potenciaDeFuego, string capacidadTodoTerreno, bool defensaAntiAerea, string armamentoPrincipal, string armamentoSecundario) 
             : base(patente, nombre, pais, anioFabricacion, peso, capacidadTripulacion, velocidad, combustible, blindaje, potenciaDeFuego)
         {
@@ -23,26 +25,17 @@ namespace Ejercito
             this.armamentoSecundario = armamentoSecundario;
         }
        
-        public string getNombre()
-        {
-            return this.nombre;
-        }
+        //Métodos de muestreo:
         public void informacion()
         {
             Console.WriteLine($"\n Nombre: {this.nombre} \n País: {this.pais} \n Año: {this.anioFabricacion} \n Peso: {this.peso} toneladas \n Blindaje: {this.blindaje} \n Potencia de fuego: {this.potenciaDeFuego} \n Velocidad: {this.velocidad} km/h \n Combustible: {this.combustible} galones \n");
         }
-
-        public void aumentarCombustible(Tanque tanque, int cantidad) 
+        public string getNombre()
         {
-            this.combustible += cantidad;
-            Console.WriteLine($"\n El combustible de {this.nombre} aumentó en {cantidad} galones. \n El combustible actual es: {this.combustible} galones. \n");
-        }
-        public void disminuirCombustible(Tanque tanque)
-        {
-            this.combustible -= 10;
-            Console.WriteLine($"El combustible de {tanque} disminuyó en 10. \n El combustible actual es: {this.combustible} ");
+            return this.nombre;
         }
 
+        //Métodos funcionales:
         public void agregarAliados()
         {
             this.aliados = new List<string>();
@@ -89,7 +82,19 @@ namespace Ejercito
             }
             return false;
         }
-        public void Batalla(Tanque enemigo)
+        public void aumentarCombustible(int cantidad) 
+        {
+            this.combustible += cantidad;
+            Console.WriteLine($"\n El combustible de {this.nombre} aumentó en {cantidad} galones. \n El combustible actual es: {this.combustible} galones. \n");
+        }
+        public void disminuirCombustible(int cantidad)
+        {
+            this.combustible -= cantidad;
+        }
+
+        //Métodos de ataque:
+        
+        public void batalla(Tanque enemigo)
         {
             if (this.sonAliados(enemigo))
             {
@@ -124,5 +129,22 @@ namespace Ejercito
                 }
             }
         }
+
+        public void batalla(Avion enemigo) 
+        {
+
+        }
+        public void batalla(Barco enemigo)
+        {
+
+        }
+        public void avanzar(int casillas) 
+        {
+            disminuirCombustible(casillas);
+            Console.WriteLine($"El tanque {this.nombre} avanzó {casillas} casillas. Ha consumido {casillas} galones de combustible. \n");
+            Console.WriteLine($"El combustible actual de {this.nombre} es: {this.combustible}. \n");
+        }
+        public void esperar(int turnos) { }
+        public void defender(int defensa) { }
     }
 }

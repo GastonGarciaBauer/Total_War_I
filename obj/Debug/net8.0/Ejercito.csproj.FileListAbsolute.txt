@@ -12,3 +12,4 @@ C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\refint\Ejercito.dll
 C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.pdb
 C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.genruntimeconfig.cache
 C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\ref\Ejercito.dll
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.sourcelink.json
