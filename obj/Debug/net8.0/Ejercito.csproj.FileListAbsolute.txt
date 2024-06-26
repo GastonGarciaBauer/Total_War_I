@@ -1,0 +1,14 @@
+C:\Users\Usuario 1\Desktop\Ejercito\bin\Debug\net8.0\Ejercito.exe
+C:\Users\Usuario 1\Desktop\Ejercito\bin\Debug\net8.0\Ejercito.deps.json
+C:\Users\Usuario 1\Desktop\Ejercito\bin\Debug\net8.0\Ejercito.runtimeconfig.json
+C:\Users\Usuario 1\Desktop\Ejercito\bin\Debug\net8.0\Ejercito.dll
+C:\Users\Usuario 1\Desktop\Ejercito\bin\Debug\net8.0\Ejercito.pdb
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.AssemblyInfoInputs.cache
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.AssemblyInfo.cs
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.csproj.CoreCompileInputs.cache
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.dll
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\refint\Ejercito.dll
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.pdb
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\Ejercito.genruntimeconfig.cache
+C:\Users\Usuario 1\Desktop\Ejercito\obj\Debug\net8.0\ref\Ejercito.dll

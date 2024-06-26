@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|c:\\users\\usuario 1\\desktop\\ejercito\\tanque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|solutionrelative:tanque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|c:\\users\\usuario 1\\desktop\\ejercito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|c:\\users\\usuario 1\\desktop\\ejercito\\avion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|solutionrelative:avion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|c:\\users\\usuario 1\\desktop\\ejercito\\barco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|solutionrelative:barco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|c:\\users\\usuario 1\\desktop\\ejercito\\vehiculomilitar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788E13B4-F63A-4348-8451-45E47D554093}|Ejercito.csproj|solutionrelative:vehiculomilitar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Barco.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Barco.cs",
+              "RelativeDocumentMoniker": "Barco.cs",
+              "ToolTip": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Barco.cs",
+              "RelativeToolTip": "Barco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:34:18.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Avion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Avion.cs",
+              "RelativeDocumentMoniker": "Avion.cs",
+              "ToolTip": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Avion.cs",
+              "RelativeToolTip": "Avion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:34:01.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VehiculoMilitar.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\VehiculoMilitar.cs",
+              "RelativeDocumentMoniker": "VehiculoMilitar.cs",
+              "ToolTip": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\VehiculoMilitar.cs",
+              "RelativeToolTip": "VehiculoMilitar.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:27:49.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:37:53.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tanque.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Tanque.cs",
+              "RelativeDocumentMoniker": "Tanque.cs",
+              "ToolTip": "C:\\Users\\Usuario 1\\Desktop\\Ejercito\\Tanque.cs",
+              "RelativeToolTip": "Tanque.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:37:26.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
