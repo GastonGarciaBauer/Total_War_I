@@ -8,6 +8,7 @@ namespace Ejercito
 {
     interface IVehiculoMilitar
     {
+        public void reparar();
         public void avanzar(int casillas);
         public void esperar(int turnos);
         public void defender(int defensa);
