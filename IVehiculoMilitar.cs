@@ -13,6 +13,8 @@ namespace Ejercito
         public void esperar(int turnos);
         public void defender(int defensa);
         public void batalla(Tanque enemigo);
+        public void batalla(Avion enemigo);
+        public void batalla(Barco enemigo);
         
     }
 }
